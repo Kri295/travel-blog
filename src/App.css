@@ -119,3 +119,16 @@ body {
     padding-left: 0px;
   }
 }
+
+@media (min-device-width: 1100px) {
+  .main {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .card--hr {
+    border: none;
+  }
+}
