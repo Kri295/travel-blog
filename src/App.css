@@ -98,3 +98,24 @@ body {
 .card--hr {
   border-top: 1px #F5F5F5;
 }
+
+@media (max-device-width: 500px) {
+  .card--info {
+    padding-top: 5px;
+    height: auto;
+  }
+
+  .card--h1-text, .card--date, .card--description, .card--map-info {
+    height: auto;
+  }
+}
+
+@media (max-device-width: 390px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card--info {
+    padding-left: 0px;
+  }
+}
